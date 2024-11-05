@@ -1,0 +1,15 @@
+<div class="container">
+<h1>Standalone Angular App</h1>
+<!-- Text Input -->
+<label for="inputText">Enter text:</label>
+<input type="text" id="inputText" [(ngModel)]="userInput" />
+<!-- Dropdown List -->
+<label for="dropdown">Select an option:</label>
+<select id="dropdown" [(ngModel)]="selectedOption">
+<option *ngFor="let option of options" [value]="option">{{ option }}</option>
+</select>
+<!-- Button -->
+<button (click)="onSubmit()">Submit</button>
+<!-- Display Message -->
+<p *ngIf="displayMessage">{{ displayMessage }}</p>
+</div>
