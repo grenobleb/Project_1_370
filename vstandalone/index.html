@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vue Standalone App</title>
+<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+<body>
+<div id="app">
+<h1>Vue Standalone App</h1>
+<div>
+<label for="textInput">Text Input:</label>
+<input type="text" id="textInput" v-model="textInput">
+</div>
+© Bruno R. Andriamanalimanana
+<div>
+<label for="dropdown">Select an option:</label>
+<select id="dropdown" v-model="selectedOption">
+<option v-for="option in options" :key="option"
+:value="option">{{ option }}
+</option>
+</select>
+</div>
+<div>
+<button @click="handleButtonClick">Click Me</button>
+</div>
+<p>Text Input: {{ textInput }}</p>
+<p>Selected Option: {{ selectedOption }}</p>
+</div>
+© Bruno R. Andriamanalimanana
+<script>
+new Vue({
+el: '#app',
+data: {
+textInput: '',
+selectedOption: '',
+options: ['Option 1', 'Option 2', 'Option 3']
+},
+methods: {
+handleButtonClick() {
+alert('Button clicked!');
+}
+}
+});
+</script>
+</body>
+</html>
