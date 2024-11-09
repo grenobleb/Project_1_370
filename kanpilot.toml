@@ -7,72 +7,6 @@ id = "process1"
 name = "To Do"
 
   [[processes.tasks]]
-  id = "dxmk12o2vvef16tz3p6vs5wq"
-  title = "Create TRS Directory and MEAN and MERN projects"
-  description = "<p></p>"
-  tag = "backlog"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = ""
-  linkCommits = [ ]
-
-  [[processes.tasks]]
-  id = "sfabhoju9blz4xthlrrnxli5"
-  title = "Create Kanpilot for Project_1"
-  description = ""
-  tag = "backlog"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = ""
-  linkCommits = [ ]
-
-  [[processes.tasks]]
-  id = "cheq28mxtfejw3a8drwr5fcw"
-  title = "Create & Implement mongonode using mongodb"
-  description = ""
-  tag = "backlog"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = ""
-  linkCommits = [ ]
-
-  [[processes.tasks]]
-  id = "oy6jexaaifp3ci6g9kheac85"
-  title = "Download & Install Google Chrome in WSL"
-  description = ""
-  tag = "backlog"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = ""
-  linkCommits = [ ]
-
-  [[processes.tasks]]
-  id = "l53j4hp3gzkoy8caaku0mf2q"
-  title = "Create new branch, 'myvuebranch', Download Vue , then Create & Implement v-standalone directory"
-  description = "<p></p>"
-  tag = "backlog"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = ""
-  linkCommits = [ ]
-
-  [[processes.tasks]]
-  id = "d1mdqpnh15p4s29y4ct4hlfn"
-  title = "Create new beanch, 'myreactbranch', and Download React, then Create & Implment rstandalone directory"
-  description = "<p></p>"
-  tag = "backlog"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = ""
-  linkCommits = [ ]
-
-  [[processes.tasks]]
   id = "p27yfym5g8r4xtirvrimg42j"
   title = "Download Angular, then Create & Implement angstandalone directory"
   description = ""
@@ -157,4 +91,69 @@ tasks = [ ]
 [[processes]]
 id = "process3"
 name = "Done"
-tasks = [ ]
+
+  [[processes.tasks]]
+  id = "dxmk12o2vvef16tz3p6vs5wq"
+  title = "Create TRS Directory and MEAN and MERN projects"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "sfabhoju9blz4xthlrrnxli5"
+  title = "Create Kanpilot for Project_1"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "cheq28mxtfejw3a8drwr5fcw"
+  title = "Create & Implement mongonode using mongodb"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "oy6jexaaifp3ci6g9kheac85"
+  title = "Download & Install Google Chrome in WSL"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "l53j4hp3gzkoy8caaku0mf2q"
+  title = "Create new branch, 'myvuebranch', Download Vue , then Create & Implement v-standalone directory"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "d1mdqpnh15p4s29y4ct4hlfn"
+  title = "Create new beanch, 'myreactbranch', and Download React, then Create & Implment rstandalone directory"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
